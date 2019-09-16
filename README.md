@@ -1,6 +1,6 @@
 # pythonelab
 
-Automagically solve all questions in your elab.
+Automagically solve all questions in your python elab.
 
 ## How do I use it?
 
@@ -9,10 +9,10 @@ Automagically solve all questions in your elab.
 
 ## Oh you want patch notes? Here:
 
-- There are just two inputs now: Username and Password. Don't mess that up.
-- Delay option is removed because who cares?
-- It will generate reports whether you want it to or not. 
-- This script doesn't care if you already solved a question or not. It will overwrite your solution either way.
+- There are just two inputs now: Username and Password. I hope nobody would mess that up.
+- Delay option is removed because who cares? I bet no one ever used it.
+- This script will generate reports whether you want it to or not.
+- It doesn't care if you already solved a question. It will overwrite your solution either way.
 
 ## Feel like reading more? Here:
 
@@ -22,8 +22,10 @@ Automagically solve all questions in your elab.
 
 - Then I noticed the numbering pattern was changed. Thanks some more help, I was able to crack that too. The rest was relatively easier. It now returns the question id in the response so the search function wasn't needed anymore.
 
-- Eventually I decided to re-structure the whole code and made it just one simple script instead of dividing it in functions, because why not? It's less than 36 lines of code. Check it out.
+- It still uses the same solutions that are hosted on autoelab's repo which is why I didn't feel the need to upload them again here.
 
-- I didn't wanna put much work into it since all people really care about is that it gets the job done. Which is why I didn't bother to add any error handling. I mean, what could go wrong? amirite lads? haha..ha.. (i hope i dont regret this)
+- Eventually I decided to re-structure the code and made it just one simple script instead of dividing it in functions, because why not? It's less than 36 lines of code. [Check it out](https://github.com/pythonelab/pythonelab/blob/master/pythonelab.py).
 
-### FAQ, memes and warnings are the same as that on [autoelab](https://github.com/autoelab/autoelab/releases)'s repo.
+- I didn't wanna put too much work into it since all people really care about is that it gets the job done. Which is why I didn't bother to add any error handling. I mean, what could go wrong? amirite lads? haha..ha.. (i hope i dont regret this)
+
+### FAQ, memes and warnings are the same as that on [autoelab](https://github.com/autoelab/autoelab)'s repo.
