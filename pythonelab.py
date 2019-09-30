@@ -3,7 +3,7 @@ ctypes.windll.kernel32.SetConsoleTitleW('pythonelab')
 if not os.path.isdir('Reports'): os.mkdir('Reports')
 
 session = requests.Session()
-api = 'http://care.srmuniv.ac.in/rmpds/api/'
+api = 'http://care.srmist.edu.in/rmpds/api/'
 data = '{"username":"'+input('Username: ')+'","password":"'+input('Password: ')+'"}'
 headers = {'User-Agent': 'Chrome/76.0.3809.132','Content-Type': 'application/json'}
 answerdb = 'https://raw.githubusercontent.com/autoelab/autoelab/master/data/code/python/'
